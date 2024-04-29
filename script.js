@@ -137,7 +137,6 @@ for (let buttonName of buttonNames) {
 }
 
 window.addEventListener("keydown", function(k) {
-    console.log(this.captureEvents)
     let key = k.key;
     if ("0123456789/*+-.=%".includes(key)) {
         buttonListener(key);
